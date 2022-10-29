@@ -17,8 +17,8 @@ export default class Banner extends Component {
                </h1>
             </div>
          )
-      } else if (this.props.origin === 'A_Propos') {
-         return <div className="k-banner__A_Propos"></div>
+      } else if (this.props.origin === 'A-Propos') {
+         return <div className="k-banner__A-Propos"></div>
       }
    }
 }

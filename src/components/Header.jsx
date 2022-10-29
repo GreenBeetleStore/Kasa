@@ -11,13 +11,13 @@ function Header() {
                className="k-logo"
             />
          </a>
-         <nav className="k-menu">
-            <ul>
+         <nav className="k-header__menu">
+            <ul className='k-header__menu_ul'>
                <li>
                   <a href="../pages/Accueil">Accueil</a>
                </li>
                <li>
-                  <a href="../pages/A_Propos.jsx">A Propos</a>
+                  <a href="../pages/A-Propos.jsx">A Propos</a>
                </li>
             </ul>
          </nav>
