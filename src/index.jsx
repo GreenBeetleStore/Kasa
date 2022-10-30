@@ -19,18 +19,18 @@ root.render(
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals()
 
-import React from 'react'
-import ReactDOM from 'react-dom'
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
-import Home from './pages/Home'
-import Survey from './pages/Survey'
-import Results from './pages/Results'
-import Freelances from './pages/Freelances'
-import Header from './components/Header'
-import Error from './components/Error'
-import Footer from './components/Footer'
-import GlobalStyle from './utils/style/GlobalStyle'
-import { ThemeProvider, SurveyProvider } from './utils/context'
+// import React from 'react'
+// import ReactDOM from 'react-dom'
+// import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+// import Home from './pages/Home'
+// import Survey from './pages/Survey'
+// import Results from './pages/Results'
+// import Freelances from './pages/Freelances'
+// import Header from './components/Header'
+// import Error from './components/Error'
+// import Footer from './components/Footer'
+// import GlobalStyle from './utils/style/GlobalStyle'
+// import { ThemeProvider, SurveyProvider } from './utils/context'
 
 // ReactDOM.render(
 //    <React.StrictMode>
