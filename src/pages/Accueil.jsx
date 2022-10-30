@@ -1,8 +1,14 @@
 // Accueil · src/pages/Accueil.jsx
 
+import React from 'react';
 import '../styles/style.css'
-// import Header from '../components/Header'
-// import Banner from '../components/Banner'
 
-// Header()
-// Banner()
+const Accueil = () => {
+      return (
+            <div>
+                  
+            </div>
+      );
+};
+
+export default Accueil;
