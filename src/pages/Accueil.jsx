@@ -1,14 +1,12 @@
 // Accueil · src/pages/Accueil.jsx
 
-import React from 'react';
+import React from 'react'
 import '../styles/style.css'
 
 const Accueil = () => {
-      return (
-            <div>
-                  
-            </div>
-      );
-};
+   return <div>
+      
+   </div>
+}
 
-export default Accueil;
+export default Accueil
