@@ -1,11 +1,14 @@
-import Banner from './Banner'
-import Header from './Header'
+// App 🥏 src/components/App.jsx
+
+import '../styles/style.css'
 
 function App() {
-   return Header()
+   return  (
+      <div className="App">
+         jo vull que funcione
+         <h1></h1>
+      </div>
+   )
 }
 
-Banner()
-
 export default App
- 

@@ -1,4 +1,6 @@
-import banner from '../assets/banner01.webp'
+// Banner · src/components/Banner.jsx
+
+import banner01 from '../assets/banner01.webp'
 import '../styles/style.css'
 import { Component } from 'react'
 
@@ -8,7 +10,7 @@ export default class Banner extends Component {
          return (
             <div className="k-banner">
                <img
-                  src={banner}
+                  src={banner01}
                   alt="Falaises en bord de mer"
                   className="k-banner__img"
                />

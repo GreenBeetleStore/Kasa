@@ -1,3 +1,5 @@
+// Header · src/components/Header.jsx
+
 import '../styles/style.css'
 import logo from '../assets/logo.png'
 
@@ -12,7 +14,7 @@ function Header() {
             />
          </a>
          <nav className="k-header__menu">
-            <ul className='k-header__menu__ul'>
+            <ul className="k-header__menu__ul">
                <li>
                   <a href="../pages/Accueil">Accueil</a>
                </li>
