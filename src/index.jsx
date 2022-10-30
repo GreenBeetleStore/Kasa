@@ -14,6 +14,7 @@ ReactDOM.render(
       </React.StrictMode>
 
 document.getElementById('root')
+
 )
 
 // Si voleu començar a mesurar el rendiment a la vostra aplicació, passeu una funció
