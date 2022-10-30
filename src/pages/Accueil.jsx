@@ -1,6 +1,6 @@
-import '../styles/index.css'
-import Header from '../components/Header'
-import Banner from '../components/Banner'
+import '../styles/style.css'
+// import Header from '../components/Header'
+// import Banner from '../components/Banner'
 
-Header()
-Banner()
+// Header()
+// Banner()

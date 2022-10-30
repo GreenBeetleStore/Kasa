@@ -17,7 +17,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "sass": "sass --watch ./sass/main.scss:./styles/style.css"
+    "sass": "sass --watch ./src/sass/main.scss:./src/styles/style.css"
   },
   "eslintConfig": {
     "extends": [
@@ -45,5 +45,17 @@
     "eslint-plugin-react": "^7.28.0",
     "eslint-plugin-react-hooks": "^4.3.0",
     "prettier": "^2.7.1"
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.jsx",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GreenBeetleStore/Kasa.git"
+  },
+  "author": "XT·Green Beetle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GreenBeetleStore/Kasa/issues"
+  },
+  "homepage": "https://github.com/GreenBeetleStore/Kasa#readme"
 }

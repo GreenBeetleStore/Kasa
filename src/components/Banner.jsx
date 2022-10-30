@@ -1,5 +1,5 @@
 import banner from '../assets/banner01.webp'
-import '../styles/Banner.css'
+import '../styles/style.css'
 import { Component } from 'react'
 
 export default class Banner extends Component {

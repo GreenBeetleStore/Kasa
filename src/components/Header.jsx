@@ -1,4 +1,4 @@
-import '../styles/Header.css'
+import '../styles/style.css'
 import logo from '../assets/logo.png'
 
 function Header() {
@@ -12,7 +12,7 @@ function Header() {
             />
          </a>
          <nav className="k-header__menu">
-            <ul className='k-header__menu_ul'>
+            <ul className='k-header__menu__ul'>
                <li>
                   <a href="../pages/Accueil">Accueil</a>
                </li>
