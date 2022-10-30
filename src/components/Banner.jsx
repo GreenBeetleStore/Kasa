@@ -2,7 +2,7 @@
 
 import React from 'react'
 import '../styles/style.css'
-import banner01 from '../assets/banner01.webp'
+import banner01 from '../assets/images/banner01.webp'
 
 const Banner = () => {
    return (
