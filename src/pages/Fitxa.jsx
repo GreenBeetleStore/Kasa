@@ -1,7 +1,7 @@
 // Fitxa · src/pages/Fitxa.jsx
-// React Stateless Component.
 
 import React from 'react'
+import '../styles/style.css'
 
 const Fitxa = () => {
    return <div>

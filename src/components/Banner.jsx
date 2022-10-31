@@ -1,4 +1,4 @@
-// Banner · src/components/Banner.jsx
+// Banner 🍌 src/components/Banner.jsx
 
 import React from 'react'
 import '../styles/style.css'

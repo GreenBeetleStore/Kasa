@@ -2,19 +2,18 @@
 
 import React from 'react'
 import ReactDOM from 'react-dom'
-import './styles/index.css'
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import App from './components/App'
+import Header from './components/Header'
+import './styles/style.css'
 import reportWebVitals from './reportWebVitals'
 
 ReactDOM.render(
       <React.StrictMode>
-         <Router>
-            <App />
-            </Router>
-      </React.StrictMode>
+         <App />
+      </React.StrictMode>,
 
 document.getElementById('root')
-
 )
 
 // Si voleu començar a mesurar el rendiment a la vostra aplicació, passeu una funció
