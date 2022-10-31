@@ -6,7 +6,7 @@ import logoB from '../assets/images/logoB.png'
 function Footer() {
    return (
       <footer className="k-footer">
-         <a href="../pages/Accueil">
+         <a href="../pages/Home">
             <img
                className="k-footer__logo"
                src={logoB}

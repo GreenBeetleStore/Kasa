@@ -1,12 +1,12 @@
-// Fitxa · src/pages/Fitxa.jsx
+// Card 📇 src/pages/Card.jsx
 
 import React from 'react'
 import '../styles/style.css'
 
-const Fitxa = () => {
+const Card = () => {
    return <div>
 
    </div>
 }
 
-export default Fitxa
+export default Card

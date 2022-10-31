@@ -12,7 +12,7 @@ function App() {
    return (
       <div>
          <Header>
-            <a href="../pages/Accueil">
+            <a href="../pages/Home">
                <img
                   src={logo}
                   alt="Logo de l'immobilier Kasa"
@@ -22,7 +22,7 @@ function App() {
             <nav className="k-header__menu">
                <ul className="k-header__menu__ul">
                   <li>
-                     <a href="../pages/Accueil">Accueil</a>
+                     <a href="../pages/Home">Home</a>
                   </li>
                   <li>
                      <a href="../pages/APropos.jsx">A Propos</a>

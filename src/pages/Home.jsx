@@ -1,12 +1,12 @@
-// A-Propos · src/pages/A-Propos.jsx
+// Home · src/pages/Home.jsx
 
 import React from 'react'
 import '../styles/style.css'
 
-const APropos = () => {
+const Home = () => {
    return <div>
       
    </div>
 }
 
-export default APropos
+export default Home
