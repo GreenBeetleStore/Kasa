@@ -1,8 +1,8 @@
 // App 🥏 src/components/App.jsx
 
 import '../styles/style.css'
-import logo from '../assets/images/logo.png'
-import Header from './Header'
+
+import Header from './Header/index'
 import Banner from './Banner'
 import Gallery from './Gallery'
 import Footer from './Footer'
@@ -29,7 +29,8 @@ function App() {
                   </li>
                </ul>
             </nav>
-         </Header>,
+         </Header>
+         ,
          <Banner />,
          <Gallery />,
          <Footer />,

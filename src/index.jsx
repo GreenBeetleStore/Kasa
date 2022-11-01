@@ -2,21 +2,34 @@
 
 import React from 'react'
 import ReactDOM from 'react-dom'
-import App from './components/App'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import About from './pages/About/index'
+import Card from './pages/Card/index'
+import Desktop from './pages/Desktop/index'
+import Header from './components/Header/index'
+import Home from './pages/Home/index'
+import Error from './components/Error/index'
 import './styles/style.css'
 import reportWebVitals from './reportWebVitals'
 
 ReactDOM.render(
-      <React.StrictMode>
-         <App />
-      </React.StrictMode>,
+   <React.StrictMode>
+      <Router>
+         <Desktop />
+         <Header />
+         <Routes>
+            <Route exact path="/" element={<Home />} />
+            <Route path="/About" element={<About />} />
+            <Route path="/Card" element={<Card />} />
+            <Route path="*" element={<Error />} />
+         </Routes>
+      </Router>
+   </React.StrictMode>,
 
-document.getElementById('root')
+   document.getElementById('root')
 )
 
-// Si voleu començar a mesurar el rendiment a la vostra aplicació, passeu una funció
-// per registrar els resultats (per exemple: reportWebVitals(console.log))
-// o enviar a un punt final d'anàlisi. Més informació: https://bit.ly/CRA-vitals
+// Més informació: https://bit.ly/CRA-vitals
 reportWebVitals()
 
 // import React from 'react'
