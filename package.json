@@ -50,7 +50,7 @@
     "prettier": "^2.7.1"
   },
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
-  "main": "index.jsx",
+  "main": "./src/index.jsx",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/GreenBeetleStore/Kasa.git"
