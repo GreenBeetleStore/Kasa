@@ -1,8 +1,8 @@
-// ApartItem 🈴 src/components/ApartItem.jsx
+// ApartItem 🈴 src/components/ApartItem/index.jsx
 
 import React from 'react'
-import ApartRating from './ApartRating'
-import '../styles/style.css'
+import '../../styles/style.css'
+import ApartRating from '../ApartRating/index'
 
 function handleClick(apartTitle) {
    alert(`Vous allez visiter ${apartTitle} ? Bienvenue à Kasa ✨🏡✨`)

@@ -2,11 +2,11 @@
 
 import '../styles/style.css'
 
-import Header from './Header/index'
-import Banner from './Banner'
-import Gallery from './Gallery'
-import Footer from './Footer'
-import ApartList from './ApartList'
+import Header from '../src/components/Header/index'
+import Banner from '../src/components/Banner'
+import Gallery from '../src/components/Gallery'
+import Footer from '../src/components/Footer'
+import ApartList from '../src/components/ApartList'
 
 function App() {
    return (

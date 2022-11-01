@@ -1,7 +1,8 @@
-// ApartRating ⭐ src/components/ApartRating.jsx
+// ApartRating ⭐ src/components/ApartRating/index.jsx
 
 import React from 'react'
-import Star from '../assets/images/star.svg'
+import '../../styles/style.css'
+import Star from '../../assets/images/star.svg'
 
 function ApartRating () {
    const range = [1, 2, 3, 4, 5]
