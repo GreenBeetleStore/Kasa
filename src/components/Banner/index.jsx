@@ -1,15 +1,15 @@
-// Banner 🍌 src/components/Banner.jsx
+// Banner 🍌 src/components/Banner/index.jsx
 
 import React from 'react'
-import '../styles/style.css'
-import banner01 from '../assets/images/banner01.webp'
+import '../../styles/style.css'
 
-const Banner = () => {
+
+function Banner({ cover:{id} }) {
    return (
       <section className="sectionBanner">
          <div className="k-banner">
             <img
-               src={banner01}
+               src='cover:{id}'
                alt="Falaises en bord de mer"
                className="k-banner__img"
             />

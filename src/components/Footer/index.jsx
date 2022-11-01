@@ -1,7 +1,7 @@
-// Footer · src/components/Footer.jsx
+// Footer 👣 src/components/Footer/index.jsx
 
-import '../styles/style.css'
-import logoB from '../assets/images/logoB.png'
+import '../../styles/style.css'
+import logoB from '../../assets/images/logoB.png'
 
 function Footer() {
    return (
