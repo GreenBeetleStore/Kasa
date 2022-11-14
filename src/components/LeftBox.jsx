@@ -6,10 +6,11 @@ import logements from '../mocks/logements.json'
 import Tags from '../components/Tags'
 
 const LeftBox = () => {
-   const { logementId } = useParams()
-   const logement = logements.find((logement) => logement.id === logementId)
-   const { title, location } = logement
+   const { id } = useParams()
+   const apartments = logements.find((logement) => logement.id === id)
+   const { title, location } = apartments
 
+   
    return (
             <div className="K-Sheet__keywords__leftBox k-leftBox">
                <div className="K-Sheet__keywords__leftBox__title k-title">
@@ -19,7 +20,7 @@ const LeftBox = () => {
                   <p>{location}</p>
                </div>
                <div className="K-Sheet__keywords__leftBox__labels k-labels">
-                  {logement.tags.map((tag, index) => (
+                  {apartments.tags.map((tag, index) => (
                      <Tags key={index} label={tag} />
                   ))}
                </div>

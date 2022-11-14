@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 import logements from '../mocks/logements.json'
 
 const Gallery = () => {
-   const appartements = logements.map((logement) => (
+   const apartments = logements.map((logement) => (
       <article key={logement.id}  className="K-Gallery__article article">
          <Link to={`/sheet/${logement.id}`}>
             <img
@@ -21,7 +21,7 @@ const Gallery = () => {
       </article>
    ))
 
-   return <section className="K-Gallery">{appartements}</section>
+   return <section className="K-Gallery">{apartments}</section>
 }
 
 export default Gallery
