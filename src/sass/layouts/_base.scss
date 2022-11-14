@@ -1,0 +1,25 @@
+/* base ·🧿· src/sass/layouts/_base.scss */
+
+body {
+   display: flex;
+   max-width: 1440px;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   background-color: $colorSecundari;
+   margin: 0 auto;
+   padding: 0; // 6.94%; // = Padding lateral 100px */
+   font-family: 'Montserrat', sans-serif;
+
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+}
+
+#root {
+   width: 100%; /* 1240px */
+}

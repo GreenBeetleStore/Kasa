@@ -1,0 +1,54 @@
+/* carousel 🎠 src/sass/layouts/_carousel.scss */
+
+.K-Sheet__carousel {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100%;  // 86.11%; // 1240px
+   height: 415px;
+   border-radius: 25px;
+   outline: 1px solid blueviolet;
+
+   &__arrows {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      height: 80px;
+      outline: 1px solid blueviolet;
+
+      &__arrowLeft {
+         width: 46.68px;
+         height: 79.2px;
+         margin-left: 23.36px;
+         outline: 1px solid red ;
+      }
+
+      &__arrowRight {    
+         width: 46.68px;
+         height: 79.2px;
+         margin-right: 23.36px;    
+         outline: 1px solid green;
+      }
+   }
+
+   &__picture {
+      display: flex;
+      position: absolute;
+      mix-blend-mode: normal;
+      width: 1140px;
+      z-index: -3;
+      
+   }
+
+   &__pageNumber {
+      position: absolute;
+      top: 496px;
+      font-size: 1.26vw; // 18px
+      font-weight: 500;
+      font-style: normal;
+      line-height: 142.6%; // 26px
+      color: $colorSecundari;
+      outline: 1px solid orange;
+   }
+}
