@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Kasa/static/css/main.f66d2867.css",
+    "main.js": "/Kasa/static/js/main.b145c08c.js",
+    "static/media/bannerAp.webp": "/Kasa/static/media/bannerAp.c370714de1acf3d8f814.webp",
+    "static/media/banner01.webp": "/Kasa/static/media/banner01.092c4b9362cf7fef6b1d.webp",
+    "static/media/logo.png": "/Kasa/static/media/logo.b3cd6431624729971d5c.png",
+    "static/media/logoB.png": "/Kasa/static/media/logoB.72f92e31649a00d1a5b2.png",
+    "index.html": "/Kasa/index.html",
+    "static/media/arrowUp.svg": "/Kasa/static/media/arrowUp.557045ea3cccdf4a6a60a53481c321e2.svg",
+    "static/media/arrowDown.svg": "/Kasa/static/media/arrowDown.3de06b9e1f51d2a820b7c3650ae5aca4.svg",
+    "static/media/arrowRight.svg": "/Kasa/static/media/arrowRight.88153a5d119c2744ffe34dca1ef843df.svg",
+    "static/media/arrowLeft.svg": "/Kasa/static/media/arrowLeft.19918a1634b1441a25ae0b50e6b1f85b.svg",
+    "static/media/greyStar.svg": "/Kasa/static/media/greyStar.7e4ba6032d7d80ecc30aa389973cef95.svg",
+    "static/media/orangeStar.svg": "/Kasa/static/media/orangeStar.6430150c126a3adf92c132c52c9c7428.svg",
+    "main.f66d2867.css.map": "/Kasa/static/css/main.f66d2867.css.map",
+    "main.b145c08c.js.map": "/Kasa/static/js/main.b145c08c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f66d2867.css",
+    "static/js/main.b145c08c.js"
+  ]
+}
