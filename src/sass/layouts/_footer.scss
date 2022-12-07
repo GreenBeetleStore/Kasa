@@ -11,9 +11,9 @@
    height: 209px;
 
    &__logo {
-      width: 144px;
+      width: 132px;
       height: auto;
-      margin: 66px auto 0 auto;
+      margin: 42px auto 30px auto;
    }
 
    &__copyright {
@@ -24,5 +24,23 @@
       font-weight: 500;
       text-align: center;
       margin: 0 auto;
+   }
+}
+
+@media screen and (max-width: 992px) {
+   .K-Footer {
+      &__copyright {
+         width: 350px;
+         font-size: 14px;
+      }
+   }
+}
+
+@media screen and (max-width: 480px) {
+   .K-Footer {
+      &__copyright {
+         width: 350px;
+         font-size: 12px;
+      }
    }
 }

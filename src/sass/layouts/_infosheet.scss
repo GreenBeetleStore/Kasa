@@ -1,0 +1,282 @@
+/* infosheet 🚦 src/sass/layouts/_infosheet.scss */
+
+.K-Sheet__info {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 100%;
+
+   &__article {
+      display: flex;
+      width: 46.9%;
+      height: 295px;
+      flex-direction: column;
+      margin-bottom: 120px;
+
+      &__tab {
+         display: flex;
+         flex-direction: row;
+         justify-content: space-between;
+         align-items: center;
+         width: 94%;
+         height: 52px;
+         background-color: $colorPrimari;
+         border-radius: 10px;
+         padding: 0 20px 0 18.65px;
+
+         & h4 {
+            color: $colorSecundari;
+            font-size: 1.26vw; // 18px
+            font-style: normal;
+            font-weight: 500;
+            line-height: 142.6%;
+         }
+
+         & img {
+            width: 26.4px;
+            height: 15.52px;
+         }
+      }
+
+      &__description {
+         display: flex;
+         flex-direction: column;
+         background-color: $colorFitxes;
+         border-radius: 10px;
+         width: 94%;
+         height: 249px;
+         padding: 30px 20px 30px 20px;
+         margin-top: -20px;
+         z-index: -1;
+
+         & p {
+            display: flex;
+            flex-wrap: wrap;
+            font-size: 1.25vw; // 18px;
+            font-style: normal;
+            font-weight: 400;
+            text-align: left;
+            line-height: 142.6%; //26px
+            color: $colorPrimari;
+         }
+      }
+
+      &__equipments {
+         display: flex;
+         flex-direction: column;
+         align-items: flex-start;
+         justify-content: flex-start;
+         background-color: $colorFitxes;
+         border-radius: 10px;
+         width: 94%;
+         height: 249px;
+         padding: 30px 20px 30px 20px;
+         margin-top: -20px;
+         z-index: -1;
+
+         & p {
+            display: flex;
+            font-size: 1.25vw; // 18px;
+            font-style: normal;
+            font-weight: 400;
+            text-align: left;
+            line-height: 142.6%; //26px
+            color: $colorPrimari;
+            margin: 1px 0;
+         }
+      }
+   }
+}
+
+@media screen and (max-width: 1280px) {
+   .K-Sheet__info {
+      &__article {
+         &__tab {
+            height: 48px;
+            & h4 {
+               font-size: 17px;
+            }
+            & img {
+               width: 26px;
+               height: 15px;
+            }
+         }
+         &__description,
+         &__equipments {
+            height: 235px;
+            & p {
+               font-size: 17px;
+            }
+         }
+      }
+   }
+}
+
+@media screen and (max-width: 1180px) {
+   .K-Sheet__info {
+      &__article {
+         &__tab {
+            height: 44px;
+            & h4 {
+               font-size: 16px;
+            }
+            & img {
+               width: 25px;
+               height: 14px;
+            }
+         }
+         &__description,
+         &__equipments {
+            height: 220px;
+            & p {
+               font-size: 16px;
+            }
+         }
+      }
+   }
+}
+
+@media screen and (max-width: 1024px) {
+   .K-Sheet__info {
+      &__article {
+         &__tab {
+            height: 40px;
+            & h4 {
+               font-size: 15px;
+            }
+            & img {
+               width: 24px;
+               height: 13px;
+            }
+         }
+         &__description,
+         &__equipments {
+            height: 220px;
+            & p {
+               font-size: 16px;
+            }
+         }
+      }
+   }
+}
+
+@media screen and (max-width: 768px) {
+   .K-Sheet__info {
+      flex-direction: column;
+      height: auto;
+      margin-bottom: 44.5px;
+      &__article {
+         width: 100%;
+         height: min-content;
+         margin-bottom: 20px;
+         &__tab {
+            margin: 0;
+            width: 96.5%;
+            height: 38px;
+            background-color: $colorPrimari;
+            border-radius: 8px;
+            padding: 0 10px 0 14px;
+            & h4 {
+               font-size: 15px;
+            }
+            & img {
+               width: 22.4px;
+               height: 11.52px;
+            }
+         }
+         &__description,
+         &__equipments {
+            border-radius: 7px;
+            width: 100.3%;
+            height: auto;
+            padding: 30px 0px 30px 0px;
+            & p {
+               font-size: 15px;
+               line-height: 142.6%;
+               padding: 0 14px;
+               margin: 0;
+            }
+         }
+      }
+   }
+}
+
+@media screen and (max-width: 640px) {
+   .K-Sheet__info {
+      &__article {
+         &__description,
+         &__equipments {
+            width: 101.3%;
+         }
+      }
+   }
+}
+
+@media screen and (max-width: 560px) {
+   .K-Sheet__info {
+      &__article {
+         &__description,
+         &__equipments {
+            width: 102%;
+         }
+      }
+   }
+}
+
+@media screen and (max-width: 480px) {
+   .K-Sheet__info {
+      &__article {
+         &__tab {
+            height: 33px;
+            background-color: $colorPrimari;
+            border-radius: 6px;
+            padding: 0 9px 0 12.5px;
+            & h4 {
+               font-size: 14px;
+            }
+            & img {
+               width: 18.3px;
+               height: 9.74px;
+            }
+         }
+         &__description,
+         &__equipments {
+            width: 102.1%;
+            border-radius: 5px;
+            & p {
+               font-size: 13px;
+               padding: 0 12.5px;
+            }
+         }
+      }
+   }
+}
+
+@media screen and (max-width: 375px) {
+   .K-Sheet__info {
+      &__article {
+         &__tab {
+            height: 30px;
+            background-color: $colorPrimari;
+            border-radius: 5px;
+            padding: 0 8px 0 11.51px;
+            & h4 {
+               font-size: 13px;
+            }
+            & img {
+               width: 15.2px;
+               height: 8.96px;
+            }
+         }
+         &__description,
+         &__equipments {
+            width: 102.5%;
+            border-radius: 5px;
+            & p {
+               font-size: 12px;
+               padding: 0 11.51px;
+            }
+         }
+      }
+   }
+}

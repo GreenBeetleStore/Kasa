@@ -1,13 +1,7 @@
 // Tags 🎫 src/components/Tags.jsx
 
-import React from "react";
-
-const Tags = ({ label }) => {
-      return (
-            <div className="k-label">
-                  <p>{label}</p>
-            </div>
-      )
+function Tags({ label }) {
+   return <p className="K-Sheet__keywords__leftBox__labels__label">{label}</p>
 }
 
 export default Tags

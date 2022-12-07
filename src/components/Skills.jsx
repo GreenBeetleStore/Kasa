@@ -1,33 +1,40 @@
 /* Skills 🎭 src/components/Skills.jsx */
 
-import React, { useState } from 'react'
-import traits from '../mocks/traits.json'
+import { useState } from 'react'
 import ArrowUp from '../assets/icons/arrowUp.svg'
 import ArrowDown from '../assets/icons/arrowDown.svg'
 
-const Skills = () => {
-   /* DropDown 🏹*/
-   const [trigger, isTrigger] = useState(false)
-   const triggerStatus = () => {
-      isTrigger(!trigger)
-   }
+function Skills({ title, skill }) {
+   const [isTrigger, setIsTrigger] = useState(false)
 
-   const traitsAbout = traits.map((trait) => (
-      <article className="K-Skills__article">
-         <div className="K-Skills__article__statement" onClick={triggerStatus}>
-            <h3>{trait.titleTrait}</h3>
-            {trigger ? (
-               <img src={ArrowUp} alt="Flèche en haut" />
-            ) : (
-               <img src={ArrowDown} alt="Flèche en bas" />
-            )}
+   return isTrigger ? (
+      <div className="K-Skills">
+         <div className="K-Skills__article">
+            <h3 className="articleTitle" key={title}>
+               {title}
+            </h3>
+            <img
+               src={ArrowUp}
+               alt="Flèche en haut"
+               onClick={() => setIsTrigger(false)}
+            />
          </div>
-         <div className="K-Skills__article__info">
-            {trigger && <p>{trait.skillTrait}</p>}
+         <p className="K-Skills__info" key={skill}>
+            {skill}
+         </p>
+      </div>
+   ) : (
+      <div className="K-Skills">
+         <div className="K-Skills__article">
+            <h3 className="articleTitle">{title}</h3>
+            <img
+               src={ArrowDown}
+               alt="Flèche en bas"
+               onClick={() => setIsTrigger(true)}
+            />
          </div>
-      </article>
-   ))
-   return <section className="K-Skills">{traitsAbout}</section>
+      </div>
+   )
 }
 
 export default Skills
