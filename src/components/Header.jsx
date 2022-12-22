@@ -7,13 +7,13 @@ import { Link } from 'react-router-dom'
 const Header = () => {
    return (
       <header className="K-header">
-         <Link to="/">
+         <Link to="/kasa">
             <img src={logo} className="K-header__logo" alt="logo" />
          </Link>
          <nav className="K-header__menu">
             <ul className="K-header__menu__ul">
                <li className="K-header__menu__ul__li">
-                  <Link to="/">Accueil</Link>
+                  <Link to="/kasa">Accueil</Link>
                </li>
                <li className="K-header__menu__ul__li">
                   <Link to="/about">A Propos</Link>
